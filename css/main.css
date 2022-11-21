@@ -1,0 +1,39 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#menu * {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#search {
+    width: 420px;
+    height: 100%;
+    outline: none;
+    font-size: 20px;
+    display: inline;
+    background: #353535;
+    border: 0;
+    color: white;
+}
+
+#menu button {
+    height: 100%;
+    font-size: 13px;
+}
+
+#menu {
+    padding: 15px;
+    position: absolute;
+    transform: translateX(-50%);
+    bottom: 50px;
+    left: 50%;
+    width: 500px;
+    height: 25px;
+    background: #353535;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0c0707;
+}
